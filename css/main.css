@@ -43,7 +43,7 @@ nav a {
 }
 
 section {
-	height: 100vh;
+	min-height: 100vh;
 	margin: auto;
 	border: 1px solid black;
 	padding-top: 50px;
@@ -83,7 +83,7 @@ section {
 .Bottomtext {
 	font-family: verdana;
 	width: 225px;
-	height: 50px;
+	height: 47px;
 	color: brown;
 	font-size: 20px;
 	float: left;
@@ -99,6 +99,7 @@ section {
 	max-width: 61%;
 	margin-left: auto;
 	margin-right: auto;
+	overflow: hidden;
 }
 
 .titlehome {
@@ -111,8 +112,8 @@ section {
 	text-decoration-style: italic;
 	text-decoration: underline;
 	float: left;
-	margin-top: 50px;
-	margin-bottom: 30px;
+	margin-top: 150px;
+	margin-bottom: 20px;
 	margin-right: 190px;
 	align-content: center;
 
